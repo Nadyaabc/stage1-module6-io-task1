@@ -9,7 +9,8 @@ public class FileReader {
 
 
     public Profile getDataFromFile(File file) {
-        String name = null, email = null;
+        String name = null;
+        String email = null;
         long number = 0;
         int age = 18;
         int ch;
